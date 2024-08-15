@@ -1,0 +1,99 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    line-height: 1.5;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  button, input, select, textarea {
+    font: inherit;
+    color: inherit;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Custom Normalization */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    line-height: 1.25;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+  }
+  
+  input, button, textarea, select {
+    outline: none;
+    border: 1px solid #ccc;
+    padding: 0.5em;
+  }
+  
+  blockquote, q {
+    quotes: none;
+  }
+  
+  blockquote::before, blockquote::after,
+  q::before, q::after {
+    content: '';
+    content: none;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  
+  /* Additional Normalization for HTML5 elements */
+  article, aside, footer, header, nav, section {
+    display: block;
+  }
+  
+  main {
+    display: block;
+  }
+  
+  figure {
+    margin: 1em 40px;
+  }
+  
+  figcaption {
+    text-align: center;
+  }
+  
